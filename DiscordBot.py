@@ -5,7 +5,7 @@ client = discord.Client()
 
 @client.event
 async def on_message(message):
-    id = client.get_guild(788820213239513109)
+    id = client.get_guild(Client_ID)
 
     if message.author == client.user:
         return
@@ -32,4 +32,4 @@ Komendy tego bota to:
 !es - pisze es
 !sieema - działa tylko w kanale sieema, pisze sieema```""")
 
-client.run("Nzg4ODI0NjIzMjIzMjc1NTUy.X9pILQ.2NFYTRvLgmxXVS4uQ14-v5k-a4c")
+client.run("BOT_TOKEN")
